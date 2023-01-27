@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css">
+<title>Porcentajes y Descuentos | Taller de Matemáticas con JavaScript</title>
+</head>
+<body>
+<h1>Porcentajes y Descuentos con JavaScript</h1>
+<p>
+Aprende a trabajar porcentajes y descuentos usando código javaScript en
+<a href="https://platzi.com/jsmath">platzi.com/jsmath</a>.
+</p>
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link" href="../index.html">Inicio</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./math.html">Fórmulas básicas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="./descuentos.html">Porcentajes y descuentos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./platzimath.html">Estadística básica</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./salarios.html">Análisis salarial</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./endeudamiento.html">Capacidad de endeudamiento</a>
+    </li>
+</ul>
+<br/>
+<section>
+    <h3>Sacar descuento a un precio:</h3>
+    <div>
+        <form id="form1">
+            <input class="form-control" type="number" min="0" required placeholder="Precio">
+            <div class="porcentaje">
+                <input class="form-control" type="number" min="1" max="100" required placeholder="Porcentaje">
+                <span>%</span>
+            </div>
+            <button class="btn btn-primary" type="submit" >Calcular</button>
+            <p></p>
+        </form>
+    </div>
+</section>
+<section>
+    <h3>Cupones de descuento:</h3>
+    <div>
+        <form id="form2">
+            <input class="form-control" type="number" min="0" required placeholder="Precio">
+            <input class="form-control" type="text" required placeholder="Cupón de descuento">
+            <button class="btn btn-primary" type="submit" >Calcular</button>
+            <p></p>
+        </form>
+    </div>
+</section>
+<script src="../js/descuentos.js"></script>
+</body>
+</html>

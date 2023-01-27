@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Fórmulas Básicas | Taller de Matemáticas con JavaScript</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+<link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+<h1>Fórmulas Básicas con JavaScript</h1>
+<p>
+Aprende a trabajar fórmulas básicas usando código javaScript en
+<a href="https://platzi.com/jsmath">platzi.com/jsmath</a>.
+</p>
+<ul class="nav justify-content-center">
+    <li class="nav-item">
+        <a class="nav-link" href="../index.html">Inicio</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link active" href="./math.html">Fórmulas básicas</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link " href="./descuentos.html">Porcentajes y descuentos</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./platzimath.html">Estadística básica</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./salarios.html">Análisis salarial</a>
+    </li>
+    <li class="nav-item">
+        <a class="nav-link" href="./endeudamiento.html">Capacidad de endeudamiento</a>
+    </li>
+</ul>
+<br/>
+<section>
+    <h3>Calcular cuadrado:</h3>
+    <form id="form1">
+        <input class="form-control" type="number" min="1" required placeholder="Lado del cuadrado">
+        <button class="btn btn-primary" type="submit">Calcular</button>
+        <p></p>
+    </form>
+</section>
+<section>
+    <h3>Calcular Triangulo con todos los datos:</h3>
+    <form id="form2">
+        <input class="form-control" type="number" min="1" required placeholder="Lado 1">
+        <input class="form-control" type="number" min="1" required placeholder="Lado 2">
+        <input class="form-control" type="number" min="1" required placeholder="Lado Base">
+        <input class="form-control" type="number" min="1" required placeholder="Altura">
+        <button class="btn btn-primary" type="submit">Calcular</button>
+        <p></p>
+    </form>
+</section>
+<section>
+    <h3>Calcular Altura de Triangulo Isóceles:</h3>
+    <h5>Este es un triángulo que tiene 2 de sus lados iguales.</h5>
+    <form id="form3">
+        <input  class="form-control" type="number" min="1" required placeholder="Lados iguales">
+        <input class="form-control" type="number" min="1" required placeholder="Lado Base">
+        <button class="btn btn-primary" type="submit">Calcular</button>
+        <p></p>
+    </form>
+</section>
+<section>
+    <h3>Calcular Altura de Triangulo Escaleno:</h3>
+    <h5>Este es un triángulo que tiene todos sus lados distintos.</h5>
+    <form id="form4">
+        <input class="form-control" type="number" min="1" required placeholder="Lado 1">
+        <input class="form-control" type="number" min="1" required placeholder="Lado 2">
+        <input class="form-control" ype="number" min="1" required placeholder="Lado 3">
+        <button class="btn btn-primary" type="submit">Calcular</button>
+        <p></p>
+    </form>
+</section>
+<script src="../js/math.js"></script>
+</body>
+</html>

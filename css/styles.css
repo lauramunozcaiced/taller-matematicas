@@ -1,0 +1,64 @@
+h1 {
+    font-size: 28px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    text-align: center;
+}
+h3{
+    font-size: 17px;
+}
+h5{
+    font-size: 14px;
+    font-weight: 400;
+}
+h4{
+     text-align: center;
+}
+p{
+    text-align: center;
+}
+.nav-item{
+    box-shadow: 1px 1px 8px lightgrey;
+}
+.nav-link{
+    color: black;
+}
+.nav-link.active{
+    color: blue;
+}
+
+section{
+    width: 350px;
+    margin: 0 auto;
+   padding: 1rem;
+   box-shadow: 1px 1px 8px lightgray;
+}
+input{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 14px!important;
+}
+.porcentaje, .precio{
+    position: relative;
+}
+.porcentaje span{
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: .5rem 2rem .5rem .5rem;
+}
+.precio span{
+    position: absolute;
+    left: 0;
+    top: 0;
+    padding: .3rem .5rem;
+}
+.precio input{
+    padding-left: 1.5rem!important;
+}
+button{
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+    font-size: 14px!important;
+}
